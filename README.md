@@ -6,7 +6,7 @@
 
 Nome_da_Aplicação é um/uma ... que permite/tem por objetivo/visa/etc .... 
 
-Coloque aqui linhas adicionais com informações sobre o que a aplicação faz. Sua introdução deve ser de no máximo 3 parágrafos, seja simples e objetivo para não sobrecarregar de detalhes desnecessários este espaço. Se necessário, crie novas seções abaixo.
+"Compra e venda de carros usados" é uma aplicação que facilita encontrar automóveis para compra, com filtros de cores, modelos e acessórios, assim como auxilia quem precisa vender.
 
 ## Pré-requisitos
 
