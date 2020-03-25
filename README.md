@@ -53,7 +53,7 @@ As seguintes pessoas contribuiram para este projeto:
 * [Luiz Henrique Brito Mongelos](https://github.com/lhmongelos)
 * [Graciele Matsuda](https://github.com/gramatsuda)
 * [Diego Herzer](https://github.com/Herzerdi)
-* [Felipe](https://github.com/)
+* [Felipe Pinheiro](https://github.com/Tzuchuck)
 * [João](https://github.com/)
 
 ## Licença de uso
