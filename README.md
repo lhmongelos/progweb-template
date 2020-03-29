@@ -1,10 +1,10 @@
-# Nome_da_Aplicação Testando s
+# Mr Automotives
 
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
-Nome_da_Aplicação é um/uma ... que permite/tem por objetivo/visa/etc .... 
+A Mr Automotives é um sistema para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo que visa facilitar a busca. ( terminar ).
 
 "Compra e venda de carros usados" é uma aplicação que facilita encontrar automóveis para compra, com filtros de cores, modelos e acessórios, assim como auxilia quem precisa vender.
 
