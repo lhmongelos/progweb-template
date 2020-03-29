@@ -1,10 +1,10 @@
-# Mr Automotives
+# Mr Automotive
 
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
-A Mr Automotives é um sistema web para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo, o sitema  que visa facilitar a busca, análise e contato.
+A Mr Automotive é um sistema web para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo, o sitema  que visa facilitar a busca, análise e contato.
 
 ## Pré-requisitos
 
@@ -32,9 +32,9 @@ Windows (opcional):
 <commandos>
 ```
 
-## Usando Nome_da_Aplicação
+## Usando Mr Automotive
 
-Para usar Nome_da_Aplicação, siga os seguintes passos (exemplos):
+Para usar Mr Automotive, siga os seguintes passos (exemplos):
 
 * Abra o navegador e digite o seguinte endereço: `http://localhost/....`
 * Ao abrir a aplicação você poderá:
