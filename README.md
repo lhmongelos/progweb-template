@@ -4,9 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
-A Mr Automotives é um sistema para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo que visa facilitar a busca. ( terminar ).
-
-"Compra e venda de carros usados" é uma aplicação que facilita encontrar automóveis para compra, com filtros de cores, modelos e acessórios, assim como auxilia quem precisa vender.
+A Mr Automotives é um sistema web para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo, o sitema  que visa facilitar a busca, análise e contato.
 
 ## Pré-requisitos
 
@@ -54,10 +52,8 @@ As seguintes pessoas contribuiram para este projeto:
 * [Graciele Matsuda](https://github.com/gramatsuda)
 * [Diego Herzer](https://github.com/Herzerdi)
 * [Felipe Pinheiro](https://github.com/Tzuchuck)
-* [João](https://github.com/)
+* [João Vitor](https://github.com/jvbrigido2)
 
 ## Licença de uso
 
-<!--- Se não tiver certeza de qual, verifique este site: https://choosealicense.com/--->
-Este projeto usa a seguinte licença: [<nome_da_licenca>](<link>).
-*Você também deve criar um arquivo chamado LICENSE no projeto*
+Este projeto usa a seguinte licença: [Apache License 2.0] (https://www.apache.org/licenses/LICENSE-2.0).
