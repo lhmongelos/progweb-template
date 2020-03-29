@@ -52,8 +52,8 @@ As seguintes pessoas contribuiram para este projeto:
 * [Graciele Matsuda](https://github.com/gramatsuda)
 * [Diego Herzer](https://github.com/Herzerdi)
 * [Felipe Pinheiro](https://github.com/Tzuchuck)
-* [João Vitor](https://github.com/jvbrigido2)
+* [João Victor](https://github.com/jvbrigido2)
 
 ## Licença de uso
 
-Este projeto usa a seguinte licença: [Apache License 2.0] (https://www.apache.org/licenses/LICENSE-2.0).
+Este projeto usa a seguinte licença: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
