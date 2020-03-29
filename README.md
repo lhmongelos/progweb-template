@@ -6,6 +6,8 @@
 
 A Mr Automotive é um sistema web para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo, o sitema  que visa facilitar a busca, análise e contato.
 
+O backlog do projeto pode ser visualizado através do link: https://trello.com/programacaoweb12/home
+
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
