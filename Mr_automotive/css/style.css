@@ -1,0 +1,471 @@
+
+
+html, body{
+	margin:0;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+}
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}	
+p{
+	
+	margin:0;
+	font-size:0.9em;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+
+
+
+/*--  Caracteristicas do banner --*/
+.banner {
+	background:url('../images/banner02.jpg') no-repeat 0px 0px;
+	
+	background-size:cover; 
+}
+
+/*--Inserir Pontos no fundo do banner e manipular imagem de fundo--*/ 
+.banner-dott {
+    background: url(../images/dott.png)repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+	padding:4em 0;
+   
+}
+
+/*--Inserir Pontos no fundo do banner--*/ 
+
+
+.navbar-inverse {
+    background-color:rgba(121, 117, 117, 0);
+    border:none;
+	margin-top: 10px;
+        
+        
+}
+
+
+/*-- Navegador--*/ 
+.navbar {
+    border: 5px solid transparent;
+    margin-left: 200px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fbfbfb;
+	font-size:1em;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-brand {
+    color: #f5f5f5;
+	  font-weight:600;
+
+}
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding:0px 0px 0px;
+    line-height: 20px;
+}
+.navbar-brand h1{
+    font-size: 2.3em;
+	color:#FF9800;
+	font-weight:600;
+	font-family: 'Droid Sans', sans-serif;
+}
+.navbar-nav {
+	   padding:5px 73px 0;
+}
+   .navbar-nav > li > a {
+       padding: 10px 20px;
+	   margin-left: 0;
+       font-size: 21px;
+}
+.navbar-form {
+    padding:0px;
+    margin-top: 0px;
+    margin-right:0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+}
+
+/*--Evento  do botão ao passar o mouse em cima--*/ 
+.link-effect-14 a {
+  overflow: hidden;
+  -moz-transition: ease-out 0.3s;
+  -o-transition: ease-out 0.3s;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.link-effect-14 a span::before {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+
+
+.link-effect-14 a span::after {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+.link-effect-14 a::before {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+.link-effect-14 a::after {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+.link-effect-14 a:hover {
+  color: white;
+}
+.link-effect-14 a:hover::before {
+  opacity: 1;
+  right: 5px;
+  top: 5px;
+}
+.link-effect-14 a:hover::after {
+  opacity: 1;
+  left: 5px;
+  bottom: 5px;
+}
+.link-effect-14 a:hover span::before {
+  opacity: 1;
+  left: 5px;
+  top: 5px;
+}
+.link-effect-14 a:hover span::after {
+  opacity: 1;
+  right: 5px;
+  bottom: 5px;
+}
+
+/*--Evento  do botão ao passar o mouse em cima--*/ 
+
+
+
+
+input[type=text] {
+    width: 100%;
+    color: black;
+    padding: 10px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 3px solid rgba(136, 129, 129, 0.99);
+}
+
+.btn-default:hover {
+    color: #f5f5f5;
+    background-color: #337ab7;
+    border-color: #adadad;
+}
+ .banner .banner-header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(23, 35, 34, 0.41);
+    width: 83%;
+    padding: 2em;
+    margin: 200px auto;
+}
+.banner .banner-header h3{
+	font-size:2.5em;
+    font-weight: 600;
+		font-family: 'Roboto', sans-serif;
+}
+.banner .banner-header p{
+	font-size: 1.3em;
+	line-height:25px;
+	 
+	
+}
+.navbar-nav {
+	padding: 0px 58px;
+}
+
+
+
+
+/*-- Barra de pesquisa --*/ 
+.w3_search input[type=search] {
+    font-size: 0.5em;
+	border: 1px solid #ccc;
+        text-align: center;
+	color: #f5f5f5;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.w3_search input[type=submit] {
+		background-color:#fff;
+		}
+
+	
+i.fa.fa-search {
+    color: #fff;
+}
+.form-control {
+    border-radius: 0px;
+	background-color: rgba(85, 85, 85, 0);
+}
+.form-group input {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+ .btn:hover {
+  background-color:rgba(0, 0, 0, 0.3);
+ }
+ .btn {
+    border-radius: 0px;
+} 
+/*--slider--*/
+#slider2,
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+}
+.rslides_tabs li:first-child {
+  margin-left: 0;
+}
+.rslides_tabs .rslides_here a {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-weight: bold;
+}
+.events {
+  list-style: none;
+}
+.callbacks_container {
+  position: relative;
+  float:none;
+  width: 100%;
+}
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.callbacks li {
+  position: absolute;
+  width: 100%;
+}
+.callbacks img {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border: 0;
+}
+.callbacks .caption {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	font-size: 20px;
+	text-shadow: none;
+	color: #fff;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;
+	margin: 0;
+	max-width: none;
+    top: 10%;
+	text-align: center;
+}
+.callbacks_nav {
+	position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    bottom: 260px;
+    left: 0;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 40px;
+    height: 22px;
+   }
+ .callbacks_nav:hover{
+  	opacity: 0.3;
+  }
+.callbacks_nav.next {
+	left: auto;
+    background-position: right top;
+    right: 0;
+ }
+ .callbacks_nav.prev {
+	right: auto;
+	background-position:left top;
+	left:0;
+}
+#slider3-pager a {
+  display: inline-block;
+}
+#slider3-pager span{
+  float: left;
+}
+#slider3-pager span{
+	width:100px;
+	height:15px;
+	background:#fff;
+	display:inline-block;
+	border-radius:30em;
+	opacity:0.6;
+}
+#slider3-pager .rslides_here a {
+  background: #FFF;
+  border-radius:30em;
+  opacity:1;
+}
+#slider3-pager a {
+  padding: 0;
+}
+#slider3-pager li{
+	display:inline-block;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display:none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li{
+  position: relative;
+  display: block;
+  float: left;
+}
+.rslides img {
+  height: auto;
+  border: 0;
+  }
+.callbacks_tabs{
+    list-style: none;
+    position: absolute;
+    bottom: -229%;
+    left: 48%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: 999;
+}
+.slider-top span{
+	font-weight:600;
+}
+.callbacks_tabs li{
+    display: inline-block;
+
+}
+/*----*/
+.callbacks_tabs a{
+ visibility: hidden;
+}
+.callbacks_tabs a:after {
+    content: "\f111";
+    font-size: 0;
+    font-family: FontAwesome;
+    visibility: visible;
+    display: block;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+	background: rgba(255, 255, 255, 0.14);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.callbacks_here a:after {
+    background: #ffa700;
+    border: 2px solid white;
+}
+
+/*-- //slider --*/
+
