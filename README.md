@@ -11,9 +11,10 @@ O backlog do projeto pode ser visualizado através do link: https://trello.com/p
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
-<!--- Estes são alguns exemplos de requisitos. Adicione, duplique e remove como necessário --->
-* Você deve possuir a última versão do `<linguagem/dependencia/etc>` instalado.
-* Você deve possuir uma máquina `<Windows/Linux/Mac>`. (Deixe claro qual SO é possível rodar a aplicação, Linux é obrigatório).
+
+* Você deve possuir uma máquina Windows 10 ou Mac. 
+* Você deve ter instalado o software WampServer.
+* Para executar o código, você deverá salvar o trabalho dentro da pasta WWW que se encontra na pasta do WAMP64 criada no seu disco C.
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
 * (outros ...)
 
