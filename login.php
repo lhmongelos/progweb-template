@@ -11,7 +11,7 @@
 <link href="css/bootstrap.css" rel="stylesheet" />
 <!-- //bootstrap css -->
 <!-- style css -->
-<link href="css/style.css" rel="stylesheet" />
+<link href="css/styleLogin.css" rel="stylesheet" />
 <!-- //style css -->
 <!-- //lightbox files -->
 <link rel="stylesheet" href="css/lightbox.css">
@@ -28,10 +28,6 @@
 
 </head>
 <body>
-    
-        <div class="navbar-header">
-            <img src="images/Logo.png" href="index.php" width="500"height="200">
-        </div>
 	<!-- banner -->
 	<div class="banner">
 		<div class="banner-dott">
@@ -40,7 +36,15 @@
                             
 				<!-- navigation -->
 				<nav class="navbar navbar-inverse">
-					
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					  </button>
+                                            <a class="navbar-brand" href="index.php"><h1>LOGO</h1></a>
+					 
+					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav link-effect-14" id="link-effect-14">
                                                     <li><a href="index.php"><span>Home</span></a></li>
@@ -62,7 +66,10 @@
                                     <div class="slider">
                                             
                                             <div class="form-title">
-                                             <h2>REALIZAR LOGIN</h2>
+											 <h2>REALIZAR LOGIN</h2>
+											 <br>
+											 
+
                                             </div>
                                             
 						<div class="callbacks_container">
@@ -76,10 +83,31 @@
                                                                                    
                                                                             
 										<form class="navbar-form navbar-left w3_search" action="#" method="post">
-                                                                                    
-                                                                                    
-                                                
-                                                                             
+                                                      <div class="loginLayout">
+													     <label for="Username">Login:</label><br>
+														 <input type="text" id="Username" name="Username"></input><br><br>
+														 <label for="Userpass">Senha:</label><br>
+														 <input type="text" id="Userpass" name="Userpass" ></input><br><br>
+														 <button class="buttonCor" type="button">Confirmar</button>
+														 <button  class="buttonCor" type="button">Cancelar</button><br><br>
+													  </div>
+														 
+														 <div >
+															  <a class="ancora1" href="recuperaacaoSenha.php">Esqueceu a senha?</a>
+															  <a class ="ancora2" href="registro.php">Não possui Conta?</a>
+														 </div>
+														 
+															
+														 
+			
+													                          
+														 
+
+
+														                      
+
+																			 
+										
                                                                                     
                                                                                 </form>
 									</div>	
@@ -102,3 +130,5 @@
 	<script src="js/responsiveslides.min.js"></script>
 </body>
 </html>
+
+
