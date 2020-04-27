@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Tela de Anunciante</title>
+    <title>Tela de Registro de Anuncios</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Dependencia Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -45,36 +46,18 @@
         <div class="card">
           <div class="card-body">
             <div class="e-profile">
-              <div class="row">
-                <div class="col-12 col-sm-auto mb-3">
-                  <div class="mx-auto" style="width: 140px;">
-                    <div class="d-flex justify-content-center align-items-center rounded" style="height: 140px; background-color: rgb(233, 236, 239);">
-                      <span style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
-                  <div class="text-center text-sm-left mb-2 mb-sm-0">
-                    <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Nome Usuário</h4>
-                    
-                    
-                    <div class="mt-2">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fa fa-fw fa-camera"></i>
-                        <span>Change Photo</span>
-                      </button>
-                    </div>
-                  </div>
-                  
-                    
-                    
-                </div>
-                  
-               <!-- Seção de informações de usuário -->    
-              </div>
+              
               <ul class="nav nav-tabs">
-                <li class="nav-item"><a  class="active nav-link">Informações Pessoais</a></li>
-              </ul>
+                <li class="nav-item"><a  class="active nav-link">Registrar Anúncio</a></li>
+              </ul><br>
+                
+               <div class="mt-2">
+                            <button class="btn btn-primary" type="button">
+                            <i class="fa fa-fw fa-camera"></i>
+                            <span>Inserir Imagem</span>
+                            </button>
+                </div>  
+                
               <div class="tab-content pt-3">
                 <div class="tab-pane active">
                   <form class="form" novalidate="">
@@ -83,66 +66,51 @@
                         <div class="row">
                           <div class="col">
                             <div class="form-group">
-                              <label>Nome</label>
-                              <input class="form-control" type="text" name="name" placeholder="Nome" value="Nome">
+                              <label>Marca</label>
+                              <input class="form-control" type="text" name="marca" placeholder="Marca" value="Marca">
                             </div>
                           </div>
                           <div class="col">
                             <div class="form-group">
-                              <label>Sobrenome</label>
-                              <input class="form-control" type="text" name="username" placeholder="Sobrenome" value="Sobrenome">
+                              <label>Modelo</label>
+                              <input class="form-control" type="text" name="Modelo" placeholder="Modelo" value="Modelo">
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col">
                             <div class="form-group">
-                              <label>E-mail</label>
-                              <input class="form-control" type="text" placeholder="user@example.com">
+                              <label>Ano</label>
+                              <input class="form-control" type="text" name="Ano" placeholder="Ano" value="Ano">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label>Valor</label>
+                              <input class="form-control" type="text" name="Valor" placeholder="Valor" value="Valor">
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          
-                        </div>
-                      </div>
+                        
+                         <div class="col mb-3">
+                            <div class="form-group">
+                              <label>Descrição</label>
+                              <textarea class="form-control" rows="5" placeholder="Descrição do Veículo"></textarea>
+                            </div>
+                          </div>
+                       </div>
+                        
                     </div>
-                    <div class="row">
-                      <div class="col-12 col-sm-6 mb-3">
-                        <div class="mb-2"><b>Trocar Senha</b></div>
-                        <div class="row">
-                          <div class="col">
-                            <div class="form-group">
-                              <label>Senha Atual</label>
-                              <input class="form-control" type="password" placeholder="••••••">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-                            <div class="form-group">
-                              <label>Nova Senha</label>
-                              <input class="form-control" type="password" placeholder="••••••">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-                            <div class="form-group">
-                              <label>Confirmar Senha <span class="d-none d-xl-inline">Password</span></label>
-                              <input class="form-control" type="password" placeholder="••••••"></div>
-                          </div>
-                        </div>
-                      </div>
+                 
+                    
+                    
                       
-                    </div>
-                    <!-- Seção de informações de usuário -->   
                      
                     
                     <!-- Botão para atualizar dados --> 
                     <div class="row">
                       <div class="col d-flex justify-content-end">
-                        <button class="btn btn-primary" type="submit">Salvar Mudanças</button>
+                        <button class="btn btn-primary" type="submit">Registrar Anúncio</button>
                       </div>
                     </div>
                   </form>

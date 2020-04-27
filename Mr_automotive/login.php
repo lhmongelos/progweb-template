@@ -11,7 +11,7 @@
 <link href="css/bootstrap.css" rel="stylesheet" />
 <!-- //bootstrap css -->
 <!-- style css -->
-<link href="css/style.css" rel="stylesheet" />
+<link href="css/styleLogin.css" rel="stylesheet" />
 <!-- //style css -->
 <!-- //lightbox files -->
 <link rel="stylesheet" href="css/lightbox.css">
@@ -66,7 +66,10 @@
                                     <div class="slider">
                                             
                                             <div class="form-title">
-                                             <h2>REALIZAR LOGIN</h2>
+											 <h2>REALIZAR LOGIN</h2>
+											 <br>
+											 
+
                                             </div>
                                             
 						<div class="callbacks_container">
@@ -80,10 +83,31 @@
                                                                                    
                                                                             
 										<form class="navbar-form navbar-left w3_search" action="#" method="post">
-                                                                                    
-                                                                                    
-                                                
-                                                                             
+                                                      <div class="loginLayout">
+													     <label for="Username">Login:</label><br>
+														 <input type="text" id="Username" name="Username"></input><br><br>
+														 <label for="Userpass">Senha:</label><br>
+														 <input type="text" id="Userpass" name="Userpass" ></input><br><br>
+														 <button class="buttonCor" type="button">Confirmar</button>
+														 <button  class="buttonCor" type="button">Cancelar</button><br><br>
+													  </div>
+														 
+														 <div >
+															  <a class="ancora1" href="recuperaacaoSenha.php">Esqueceu a senha?</a>
+															  <a class ="ancora2" href="registro.php">Não possui Conta?</a>
+														 </div>
+														 
+															
+														 
+			
+													                          
+														 
+
+
+														                      
+
+																			 
+										
                                                                                     
                                                                                 </form>
 									</div>	
