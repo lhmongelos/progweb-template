@@ -11,7 +11,7 @@
 <link href="css/bootstrap.css" rel="stylesheet" />
 <!-- //bootstrap css -->
 <!-- style css -->
-<link href="css/style.css" rel="stylesheet" />
+<link href="css/styleRegitro.css" rel="stylesheet" />
 <!-- //style css -->
 <!-- //lightbox files -->
 <link rel="stylesheet" href="css/lightbox.css">
@@ -27,8 +27,12 @@
 
 
 </head>
+<div class="navbar-header">
+            <img src="images/Logo.png" href="index.php" width="500"height="200">
+</div>
+
 <body>
-	<!-- banner -->
+	
 	<div class="banner">
 		<div class="banner-dott">
 			<div class="container">
@@ -37,12 +41,8 @@
 				<!-- navigation -->
 				<nav class="navbar navbar-inverse">
 					<div class="navbar-header">
-					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
-					  </button>
-                                            <a class="navbar-brand" href="index.php"><h1>LOGO</h1></a>
+					  
+                                           
 					 
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
@@ -80,12 +80,33 @@
                                                                                    
                                                                             
 										<form class="navbar-form navbar-left w3_search" action="#" method="post">
+                        
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" placeholder="NOME" required="">  
+                                                                                    </div>
                                                                                     
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" placeholder="E-MAIL" required="">
+                                                                                    </div>
                                                                                     
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" placeholder="LOGIN" required="">
+                                                                                    </div>
+                                                                                    
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" placeholder="SENHA" required=""> 
+                                                                                    </div>
+                                                                                    
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" placeholder="CONFIRMA SENHA" required="">
+                                                                                    </div>
+                                                                                    
+                                                                                   
                                                 
-                                                                                  
-                                                                                    
                                                                                 </form>
+                                                                                
+                                                                                 
+                                                                                
 									</div>	
 								</li>
 									
@@ -93,7 +114,14 @@
 						</div>
 			
 					</div>
+                                        
+                                        <br>
+                                        <br><div class="form-group">
+                                            <input type="submit" value="CONFIRMAR" name="ConfirmarRegistro" />                                                
+                                        </div>
+
 				</div>
+                      
 			</div>
 		</div>
 	</div>

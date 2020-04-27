@@ -54,6 +54,7 @@ label{
 /*--  Caracteristicas do banner --*/
 .banner {
 	background:url('../images/banner02.jpg') no-repeat 0px 0px;
+	
 	background-size:cover; 
 }
 
@@ -275,7 +276,8 @@ input[type=text] {
 
 /*-- Barra de pesquisa --*/ 
 .w3_search input[type=search] {
-    
+        
+       
         font-size: 0.5em;
 	border: 1px solid #ccc;
         text-align: center;
@@ -482,5 +484,4 @@ i.fa.fa-search {
     border: 2px solid white;
 }
 
-/*-- //slider --*/
 

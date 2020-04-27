@@ -53,7 +53,7 @@ and open the template in the editor.
                                                     
 							<li><a href="#" class="scroll"><span>ESTOQUE</span></a></li>
                                                         
-							<li><a href="#" class="scroll"><span>SOBRE NÓS</span></a></li>
+                                                        <li><a href="anunciante.php" class="scroll"><span>SOBRE NÓS</span></a></li>
                                                         
                                                         <li><a href="login.php" class="scroll"><span>LOGIN</span></a></li>
                                                         
