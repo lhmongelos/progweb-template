@@ -39,10 +39,14 @@ Windows (opcional):
 
 Para usar Mr Automotive, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost/....`
+* Abra o navegador e digite o seguinte endereço: `http://localhost:8080/Mr_automotive/index.php`
+
 * Ao abrir a aplicação você poderá:
-  * Navegar pelo conteúdo público, ou
-  * Entrar com usuário e senha para ....
+  * Navegar pelo conteúdo público, 
+  * Buscar anuncios de carros, 
+  * Criar um perfil de anunciante,
+  * Anunciar um carro com o perfil criado.
+  
 * *Continua ...*  
 
 *Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
