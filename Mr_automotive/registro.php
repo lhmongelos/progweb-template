@@ -35,93 +35,62 @@
 	
 	<div class="banner">
 		<div class="banner-dott">
-			<div class="container">
-                            
-                            
+			<div class="container">  
 				<!-- navigation -->
 				<nav class="navbar navbar-inverse">
 					<div class="navbar-header">
-					  
-                                           
-					 
+
 					</div>
-					<div class="collapse navbar-collapse" id="myNavbar">
-						<ul class="nav navbar-nav link-effect-14" id="link-effect-14">
-                                                    <li><a href="index.php"><span>Home</span></a></li>
-                                                        
-							<li><a href="#" class="scroll"><span>ESTOQUE</span></a></li>
-                                                        
-							<li><a href="#" class="scroll"><span>SOBRE NÓS</span></a></li>
-                                                        
-                                                        <li><a href="login.php" class="scroll"><span>LOGIN</span></a></li>
-                                                        
-                                                        <li><a href="registro.php" class="scroll"><span></span>REGISTRE-SE</a></li>
-						</ul>
-						
-					</div>
-				</nav>	
-                                
-				<div class="banner-header">
-                                    
-                                    <div class="slider">
-                                            
-                                            <div class="form-title">
-                                             <h2>REGISTRAR-SE</h2>
-                                            </div>
-                                            
-						<div class="callbacks_container">
-                                                    
-                                                       
-							<ul class="rslides callbacks callbacks1" id="slider4">
-								<li>	
-                                                                    
-									<div class="banner_text">
-                                                                            
-                                                                                   
-                                                                            
-										<form class="navbar-form navbar-left w3_search" action="#" method="post">
-                        
-                                                                                    <div class="form-group">
-                                                                                        <input type="text" class="form-control" placeholder="NOME" required="">  
-                                                                                    </div>
-                                                                                    
-                                                                                    <div class="form-group">
-                                                                                        <input type="text" class="form-control" placeholder="E-MAIL" required="">
-                                                                                    </div>
-                                                                                    
-                                                                                    <div class="form-group">
-                                                                                        <input type="text" class="form-control" placeholder="LOGIN" required="">
-                                                                                    </div>
-                                                                                    
-                                                                                    <div class="form-group">
-                                                                                        <input type="text" class="form-control" placeholder="SENHA" required=""> 
-                                                                                    </div>
-                                                                                    
-                                                                                    <div class="form-group">
-                                                                                        <input type="text" class="form-control" placeholder="CONFIRMA SENHA" required="">
-                                                                                    </div>
-                                                                                    
-                                                                                   
-                                                
-                                                                                </form>
-                                                                                
-                                                                                 
-                                                                                
-									</div>	
-								</li>
-									
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav link-effect-14" id="link-effect-14">
+								<li><a href="index.php"><span>Home</span></a></li>                            
+								<li><a href="#" class="scroll"><span>ESTOQUE</span></a></li>
+								<li><a href="#" class="scroll"><span>SOBRE NÓS</span></a></li>                                
+								<li><a href="login.php" class="scroll"><span>LOGIN</span></a></li>
+								<li><a href="registro.php" class="scroll"><span></span>REGISTRE-SE</a></li>
 							</ul>
 						</div>
-			
+				</nav>	   
+					<div class="banner-header">            
+						<div class="slider">
+							<div class="form-title">
+								<h2>REGISTRAR-SE</h2>
+							</div>
+							<div class="callbacks_container">
+								<ul class="rslides callbacks callbacks1" id="slider4">
+									<li>	                                              
+										<div class="banner_text">
+										<form class="navbar-form navbar-left w3_search" action="#" method="post">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="NOME" required="">  
+											</div>
+											
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="E-MAIL" required="">
+											</div>
+											
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="LOGIN" required="">
+											</div>
+											
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="SENHA" required=""> 
+											</div>
+											
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="CONFIRMA SENHA" required="">
+											</div>
+										</form>								
+										</div>	
+									</li>		
+								</ul>
+							</div>
+						</div>
+					<br><br>
+					<div class="form-group">
+						<input type="submit" value="CONFIRMAR" name="ConfirmarRegistro" />                                                
 					</div>
-                                        
-                                        <br>
-                                        <br><div class="form-group">
-                                            <input type="submit" value="CONFIRMAR" name="ConfirmarRegistro" />                                                
-                                        </div>
-
 				</div>
-                      
 			</div>
 		</div>
 	</div>
