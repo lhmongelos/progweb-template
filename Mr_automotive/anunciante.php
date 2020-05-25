@@ -15,7 +15,8 @@
 
 <body>
     <div class="logo">
-        <img src="images/Logo.png" href="index.php" width="500"height="200">
+        <img src="img/logo2.png" href="index.php" width="300"height="100">
+        <br><br>
     </div>
     
 <!-- Dependencia Bootstrap -->
@@ -36,7 +37,14 @@
   </div>
     <!-- Lista de Itens - Barra de navegação Lateral --> 
     
-    
+   <?php 
+    session_start();
+    if(!isset($_SESSION['idusuario'])){
+        header("location: index.php");
+        exit;
+        
+    }
+   ?> 
     
   <!-- Foto usuário, --> 
   <div class="col">
@@ -159,10 +167,9 @@
         <div class="card mb-3">
           <div class="card-body">
             <div class="px-xl-3">
-              <button class="btn btn-block btn-secondary">
-                  <i class="fa fa-sign-out"></i>
-                <span>Logout</span>
-              </button>
+              
+                  <a href="sair.php">Logout</a>
+              
             </div>
           </div>
         </div>
