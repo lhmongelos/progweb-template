@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/05/2020, 19:59:21
+    Author     : Herzer
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background:url('../img/banner02.jpg') no-repeat 0px 0px;
+    background-size:cover; 
+}
+
+input{
+    text-align: center;
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    border-color: white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255, 0.01);
+    color: white;
+    outline: none;
+}
+
+div#corpo-form{
+    text-align: center;
+    background: url('../img/dott.png') no-repeat 0px 0px;
+    width: 420px;
+    margin: 150px auto 0px auto;
+    background-size: cover;
+}
+
+div#corpo-form-Cad{
+    text-align: center;
+    background: url('../img/dott.png') no-repeat 0px 0px;
+    width: 420px;
+    margin: 80px auto 0px auto;
+    background-size: cover;
+}
+   
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: white;
+}
+
+
+input[type=submit]{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder{
+    color: #fff;
+}
+
+::-moz-placeholder{
+    color: #fff;
+}
+:-ms-input-placeholder{
+    color: #fff;
+}
+
+div#msg-sucesso{
+    text-align: center;
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50, .3);
+    border: 1px rgb(34,139,34);
+}
+
+div#msg-erro{
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114,.3);
+    border: 1px rgb(165,42,42);
+    
+    
+}
