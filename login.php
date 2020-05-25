@@ -1,5 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+require_once 'CLASSES/usuario.php'; //Para utiliza os métodos da classe Usuario
+$u = new Usuario; //instancia
+?>
+
+<html lang="pt-br">
 <head>
 <title> Mr Automotive Webpage</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,30 +32,25 @@
 
 </head>
 <body>
+<div class="navbar-header">
+            <img src="images/Logo.png" href="index.php" width="500"height="200">
+        </div>
 	<!-- banner -->
 	<div class="banner">
 		<div class="banner-dott">
 			<div class="container">
                             
-                            
+                                    
 				<!-- navigation -->
 				<nav class="navbar navbar-inverse">
-					<div class="navbar-header">
-					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
-					  </button>
-                                            <a class="navbar-brand" href="index.php"><h1>LOGO</h1></a>
-					 
-					</div>
+					
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav link-effect-14" id="link-effect-14">
                                                     <li><a href="index.php"><span>Home</span></a></li>
-                                                        
+                                                    
 							<li><a href="#" class="scroll"><span>ESTOQUE</span></a></li>
                                                         
-							<li><a href="#" class="scroll"><span>SOBRE NÓS</span></a></li>
+                                                        <li><a href="anunciante.php" class="scroll"><span>SOBRE NÓS</span></a></li>
                                                         
                                                         <li><a href="login.php" class="scroll"><span>LOGIN</span></a></li>
                                                         
@@ -59,17 +58,15 @@
 						</ul>
 						
 					</div>
-				</nav>	
-                                
-				<div class="banner-header">
+				</nav>
+                                        	
+                <div class="banner-header">
                                     
                                     <div class="slider">
                                             
                                             <div class="form-title">
-											 <h2>REALIZAR LOGIN</h2>
-											 <br>
-											 
-
+                                                <h2>REALIZAR LOGIN</h2><BR>
+                                             
                                             </div>
                                             
 						<div class="callbacks_container">
@@ -83,31 +80,16 @@
                                                                                    
                                                                             
 										<form class="navbar-form navbar-left w3_search" action="#" method="post">
-                                                      <div class="loginLayout">
-													     <label for="Username">Login:</label><br>
-														 <input type="text" id="Username" name="Username"></input><br><br>
-														 <label for="Userpass">Senha:</label><br>
-														 <input type="text" id="Userpass" name="Userpass" ></input><br><br>
-														 <button class="buttonCor" type="button">Confirmar</button>
-														 <button  class="buttonCor" type="button">Cancelar</button><br><br>
-													  </div>
-														 
-														 <div >
-															  <a class="ancora1" href="recuperaacaoSenha.php">Esqueceu a senha?</a>
-															  <a class ="ancora2" href="registro.php">Não possui Conta?</a>
-														 </div>
-														 
-															
-														 
-			
-													                          
-														 
+                                                                                    
+                                                                                    
+                                                
+                                                                                    <div class="form-group">
+                                                                                            <input type="login" class="form-control" placeholder="Login" required="">
+                                                                                    </div>
 
-
-														                      
-
-																			 
-										
+                                                                                    <div class="form-group">
+                                                                                            <input type="senha" class="form-control" placeholder="Senha" required="">
+                                                                                    </div>
                                                                                     
                                                                                 </form>
 									</div>	
@@ -115,12 +97,18 @@
 									
 							</ul>
 						</div>
-			
 					</div>
+                                        
+                                        <br>
+                                        <div class="form-submit">
+                                              <input type="submit" value="ACESSAR">                                                
+                                        </div>
 				</div>
+                                
 			</div>
 		</div>
 	</div>
+	
 	
 
 	</div>
@@ -128,6 +116,54 @@
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
+
+	<?php
+	//verifica a existência de uma variável dentro do método POST
+	if(isset($_POST['login'])){
+
+		//variáveis que recebem todas os inputs
+		//addcslashes: tira qlq comando maliciosos e depois armazena 
+		$login = addcslashes($_POST['login']);
+		$senha = addcslashes($_POST['userpass']);
+
+		//caso todos os inputs tenham sido preenchidos
+		if(!empty($login) && !empty($senha)){
+			$u->conectar("login", "localhost", "root", "NOVASENHA");
+			
+			// caso não tenha nenhum erro
+			if($u->msgErro == ""){
+
+				//loga e vai para a página privada aka anuciante
+				if($u->logar($login,$senha)){
+					header("location: anunciante.php");
+
+				} else {
+					
+					?>
+					<div class="msg-erro">
+					Email e/ou senha estão incorretos!
+					</div>
+					<?php
+					
+				}
+			} else{
+				<div class="msg-erro">
+				<?php echo "Erro: ".$u->msgErro; ?>
+				</div>
+				<?php
+					
+			}
+		} else {
+			
+			?>
+			<div class="msg-erro">
+			Preencha todos os campos!
+			</div>
+			<?php
+			
+		}
+	}
+	?>
 </body>
 </html>
 
