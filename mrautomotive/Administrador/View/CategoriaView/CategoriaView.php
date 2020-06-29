@@ -72,9 +72,9 @@ if (filter_input(INPUT_GET, "cod", FILTER_SANITIZE_NUMBER_INT)) {
     }
 }
 
+$listaResumida = $categoriaController->RetornarCategoriasResumido();
+$listaCategoria = $categoriaController->RetornarTodos();
 
-//$listaResumida = $categoriaController->RetornarCategoriasResumido();
-//$listaCategoria = $categoriaController->RetornarTodos();
 ?>
 
 <div id="dvCategoriaView">
