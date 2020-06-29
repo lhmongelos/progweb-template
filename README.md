@@ -40,6 +40,9 @@ Para executar o projeto como:
  -  Abrir o repositoria na IDE de sua preferencia
  - Acessa a pasta "Administrador" do projeto
  - Execute o arquivo index.php
+ - Faça o login com as credenciais abaixo:
+   - Usuário: Administrador
+   - Senha : 123456789
 
 
 
