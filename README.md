@@ -73,6 +73,21 @@ Para usar Mr Automotive, siga os seguintes passos (exemplos):
     * Gerenciar categorias,
     * Gerenciar modelos,
     * Gerenciar marcas.
+    
+    
+  * Funções, Composição e caracteristicas do projeto:
+   * Pastas do projeto
+      - ACTION : Possui subfunções de Categorias e Usuarios
+      - MODEL : Possui todos os modelos de compõem o sistema
+      - VIEW : Possui todas as telas do sistema
+      - CONTROLLER : Possuias regras de negocio e validação
+      - DAL : Possui os DAOs do projeto - Realizam ações com o banco de dados
+      - SQL : Arquivo do banco de dados exportado
+      - Util : Arquivos utilizados para melhorar o funcionamento do sistema - Funções do sistema responsivo
+      - Bootstrap: framework para configuração do estilo das paginas do sistema
+      - Css : Arquivos de configuração do estilo da paginas
+      - Js : Arquivos JavaScript de alto-nível utilizado no sistema para algumas funções
+      
 
 ## Contribuidores
 
