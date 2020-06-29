@@ -1,7 +1,5 @@
 # Mr Automotive
 
-![](https://github.com/lhmongelos/progweb-template/blob/master/mrautomotive/img/mrlogo.png?raw=true)
-
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/lhmongelos/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/lhmongelos/progweb-template)
@@ -22,56 +20,49 @@ Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
     * Netbeans
     * Atom
 * Você deve ter instalado o software WampServer ou XAMPP.
+
+## Como executar
+### Para fazer o deploy da aplicação siga os seguintes passos:
+### Windows:
+
 * Para executar o código, você deverá clonar este repositório e salva-lo dentro da pasta :
     * XAMPP: dentro do diretório do XAMPP na pasta C:/xampp/htdocs/
     * WAMP: dentro do diretório do WAMP na pasta C:/wamp/www/
-* Importar o arquivo SQL dentro do phpmyadmin.
+* Importar o arquivo SQL dentro do phpmyadmin de um dos programas citados acima.
 
-## Como executar
-
-### Para fazer o deploy da aplicação siga os seguintes passos:
-
-#### Linux e/ou macOS:
-```
-Clonar e Rodar a aplicação
-
-# Clone this repository
-$ git clone https://github.com/lhmongelos/progweb-template
-
-# Go into the repository
-$ cd MrAutomotive
+Para executar o projeto como:
+*Usuário Padrão
+- Abra o repositoria na IDE de sua preferencia
+- Execute o arquivo ou  Arquivo index.php
 
 
-```
+*Usuário Administrador
+ -  Abrir o repositoria na IDE de sua preferencia
+ - Acessa a pasta "Administrador" do projeto
+ - Execute o arquivo index.php
 
-### Windows (opcional):
-```
-Clonar e Rodar a aplicação
 
-# Clone this repository
-$ git clone https://github.com/lhmongelos/progweb-template
-
-# Go into the repository
-$ cd MrAutomotive
-
-# running on port 8080
-$ php -S localhost:8080
-
-```
 
 ## Usando Mr Automotive
 
 Para usar Mr Automotive, siga os seguintes passos (exemplos):
 
-* Primeiramente abrir o projeto em uma IDE de sua preferência e execute o arquivo index.php.
+*Certifique que você tenha todos os Pré-requisitos.
+* Primeiramente abra o projeto em uma IDE de sua preferência e execute o arquivo index.php.
 
 * Ao abrir a aplicação você poderá:
 
   * Usuário padrão
-    * Navegar pelo conteúdo público, 
-    * Buscar anuncios de carros, 
-    * Criar um perfil de anunciante,
-    * Anunciar um carro com o perfil criado.
+  - Usuário Não Autenticado
+    * Navegar pelo conteúdo público,
+    * Buscar anuncios de carros,
+    * Acessar Anuncios do sistema,
+    * Criar um usuário de anunciante,
+    
+  - Usuário Autenticado
+    * Criar um anuncio (Necessário estar logado),
+    * Visualizar seus anuncios,
+    * Deslogar do sistema,
 
   * Usuário administrador
     * Gerenciar os usuários,
