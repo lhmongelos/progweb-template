@@ -4,9 +4,9 @@
 require_once("Banco.php");
 
 
-if (file_exists("../Util/ClassSerialization.php")) {
+if (file_exists("../Util/ClassSerialization.php")){
     require_once("../Util/ClassSerialization.php");
-} elseif (file_exists("Util/ClassSerialization.php")) {
+}elseif (file_exists("Util/ClassSerialization.php")){
     require_once("Util/ClassSerialization.php");
 }
 
@@ -73,7 +73,7 @@ class CategoriaDAO {
     //Criando classe para retornar as categorias na tela do 
     public function RetornarCategoriasResumido() {
         
-       /* 
+       
         try {
             
             $sql = "SELECT cod, nome, categoria_cod FROM categoria ORDER BY categoria_cod, nome ASC"; //SQL de consulta
@@ -97,7 +97,7 @@ class CategoriaDAO {
                 echo "ERRO: {$ex->getMessage()} LINE: {$ex->getLine()}";
             }
             return null;
-        }*/
+        }
     }
   
 } 
