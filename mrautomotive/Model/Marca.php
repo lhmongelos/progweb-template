@@ -1,8 +1,38 @@
-<?php
+<?php 
+    
+class Marca{
+    
+    private $cod;
+    private $nome;
+    private $descricao;
+    
+    function getCod() {
+        return $this->cod;
+    }
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+    function getNome() {
+        return $this->nome;
+    }
+
+    function getDescricao() {
+        return $this->descricao;
+    }
+
+    function setCod($cod): void {
+        $this->cod = $cod;
+    }
+
+    function setNome($nome): void {
+        $this->nome = $nome;
+    }
+
+    function setDescricao($descricao): void {
+        $this->descricao = $descricao;
+    }
+
+
+}
+
+
+?>
 

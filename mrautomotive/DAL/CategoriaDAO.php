@@ -73,10 +73,10 @@ class CategoriaDAO {
     //Criando classe para retornar as categorias na tela do 
     public function RetornarCategoriasResumido() {
         
-       /* 
-        try {
+        
+        /*try {
             
-            $sql = "SELECT cod, nome, categoria_cod FROM categoria ORDER BY categoria_cod, nome ASC"; //SQL de consulta
+            $sql = "SELECT cod, nome FROM categoria ORDER BY  nome ASC"; //SQL de consulta
             
             //Executa consulta e armazena na variavel 
             
