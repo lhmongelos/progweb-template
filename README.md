@@ -95,9 +95,9 @@ Para usar Mr Automotive, siga os seguintes passos (exemplos):
 
 As seguintes pessoas contribuiram para este projeto:
 
-* [Luiz Henrique Brito Mongelos](https://github.com/lhmongelos)
-* [Graciele Matsuda](https://github.com/gramatsuda)
 * [Diego Herzer](https://github.com/Herzerdi)
+* [Graciele Matsuda](https://github.com/gramatsuda)
+* [Luiz Henrique Brito Mongelos](https://github.com/lhmongelos)
 
 ## Licença de uso
 
