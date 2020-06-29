@@ -1,10 +1,12 @@
 # Mr Automotive
 
+![logo-mrautomotive](https://github.com/lhmongelos/progweb-template/blob/master/mrautomotive/img/mrlogo.png?raw=true)
+
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/lhmongelos/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/lhmongelos/progweb-template)
 
-A Mr Automotive é um sistema web para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo, o sitema  que visa facilitar a busca, análise e contato.
+A Mr Automotive é um sistema web para auxiliar o consumidor a compra e venda do seu automotivo. Permite incluir as informações e imagens sobre o automotivo, o sitema  que visa facilitar a busca, do carro dos seus sonhos.
 
 ## Trello
 
@@ -76,17 +78,17 @@ Para usar Mr Automotive, siga os seguintes passos (exemplos):
     
     
   * Funções, Composição e caracteristicas do projeto:
-   * Pastas do projeto
-      - ACTION : Possui subfunções de Categorias e Usuarios
-      - MODEL : Possui todos os modelos de compõem o sistema
-      - VIEW : Possui todas as telas do sistema
-      - CONTROLLER : Possuias regras de negocio e validação
-      - DAL : Possui os DAOs do projeto - Realizam ações com o banco de dados
-      - SQL : Arquivo do banco de dados exportado
-      - Util : Arquivos utilizados para melhorar o funcionamento do sistema - Funções do sistema responsivo
-      - Bootstrap: framework para configuração do estilo das paginas do sistema
-      - Css : Arquivos de configuração do estilo da paginas
-      - Js : Arquivos JavaScript de alto-nível utilizado no sistema para algumas funções
+      * Pastas do projeto
+         - ACTION : Possui subfunções de Categorias e Usuarios
+         - MODEL : Possui todos os modelos de compõem o sistema
+         - VIEW : Possui todas as telas do sistema
+         - CONTROLLER : Possuias regras de negocio e validação
+         - DAL : Possui os DAOs do projeto - Realizam ações com o banco de dados
+         - SQL : Arquivo do banco de dados exportado
+         - Util : Arquivos utilizados para melhorar o funcionamento do sistema - Funções do sistema responsivo
+         - Bootstrap: framework para configuração do estilo das paginas do sistema
+         - Css : Arquivos de configuração do estilo da paginas
+         - Js : Arquivos JavaScript de alto-nível utilizado no sistema para algumas funções
       
 
 ## Contribuidores
