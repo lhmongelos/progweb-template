@@ -57,19 +57,26 @@ $ php -S localhost:8080
 
 ```
 
-
 ## Usando Mr Automotive
 
 Para usar Mr Automotive, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost:8080/Mr_automotive/index.php`
+* Primeiramente abrir o projeto em uma IDE de sua preferência e execute o arquivo index.php.
 
 * Ao abrir a aplicação você poderá:
-  * Navegar pelo conteúdo público, 
-  * Buscar anuncios de carros, 
-  * Criar um perfil de anunciante,
-  * Anunciar um carro com o perfil criado.
 
+  * Usuário padrão
+    * Navegar pelo conteúdo público, 
+    * Buscar anuncios de carros, 
+    * Criar um perfil de anunciante,
+    * Anunciar um carro com o perfil criado.
+
+  * Usuário administrador
+    * Gerenciar os usuários,
+    * Gerenciar anuncios,
+    * Gerenciar categorias,
+    * Gerenciar modelos,
+    * Gerenciar marcas.
 
 ## Contribuidores
 
