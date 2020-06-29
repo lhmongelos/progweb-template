@@ -1,5 +1,7 @@
 # Mr Automotive
 
+![](https://github.com/lhmongelos/progweb-template/blob/master/mrautomotive/img/mrlogo.png?raw=true)
+
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/lhmongelos/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/lhmongelos/progweb-template)
